@@ -66,13 +66,13 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(jLabel1, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(txtHargaAsli, gridBagConstraints);
 
         jLabel2.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
@@ -82,13 +82,13 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(jLabel2, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(txtKodeKupon, gridBagConstraints);
 
         jLabel3.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
@@ -99,7 +99,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridy = 3;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(jLabel3, gridBagConstraints);
 
         cbDiskonPersen.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "0%", "10%", "20%", "30%", "40%", "50%" }));
@@ -107,7 +107,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-        gridBagConstraints.insets = new java.awt.Insets(6, 5, 6, 5);
+        gridBagConstraints.insets = new java.awt.Insets(6, 7, 6, 7);
         jPanel1.add(cbDiskonPersen, gridBagConstraints);
 
         sliderDiskonPersen.setPaintLabels(true);
@@ -124,7 +124,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 4;
-        gridBagConstraints.insets = new java.awt.Insets(6, 0, 6, 0);
+        gridBagConstraints.insets = new java.awt.Insets(6, 2, 6, 2);
         jPanel1.add(sliderDiskonPersen, gridBagConstraints);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/7630510 (2).png"))); // NOI18N
@@ -132,6 +132,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.gridwidth = 2;
+        gridBagConstraints.insets = new java.awt.Insets(0, 2, 0, 2);
         jPanel1.add(jLabel5, gridBagConstraints);
 
         btnHitung.setBackground(new java.awt.Color(249, 94, 5));
@@ -147,7 +148,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 5;
         gridBagConstraints.gridwidth = 2;
-        gridBagConstraints.insets = new java.awt.Insets(12, 0, 12, 0);
+        gridBagConstraints.insets = new java.awt.Insets(12, 2, 12, 2);
         jPanel1.add(btnHitung, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -155,7 +156,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
         gridBagConstraints.gridy = 0;
         gridBagConstraints.gridheight = 5;
         gridBagConstraints.fill = java.awt.GridBagConstraints.VERTICAL;
-        gridBagConstraints.ipadx = 35;
+        gridBagConstraints.ipadx = 53;
         gridBagConstraints.ipady = 21;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.PAGE_START;
         gridBagConstraints.insets = new java.awt.Insets(10, 10, 10, 10);
@@ -228,11 +229,11 @@ public class DiscountCalculator extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 772, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 859, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 471, Short.MAX_VALUE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 552, Short.MAX_VALUE)
         );
 
         pack();
@@ -251,7 +252,7 @@ public class DiscountCalculator extends javax.swing.JFrame {
             // Memeriksa kode kupon (misalnya, kode "DISKON10" memberi diskon tambahan 10%)
             String kodeKupon = txtKodeKupon.getText();
             double diskonKupon = kodeKupon.equalsIgnoreCase("DISKON10") ? 10.0 : 0.0;
-
+        
             // Menghitung harga setelah diskon
             double totalDiskon = diskonPersen + diskonKupon;
             double hargaSetelahDiskon = hargaAsli - (hargaAsli * totalDiskon / 100);
