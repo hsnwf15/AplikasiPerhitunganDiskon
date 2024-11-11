@@ -12,6 +12,10 @@ Aplikasi Perhitungan Diskon adalah aplikasi sederhana berbasis Java Swing yang m
 - **Riwayat Perhitungan Diskon**: Menyimpan riwayat perhitungan yang telah dilakukan oleh pengguna.
 
 ## Tampilan Antarmuka
+- ### tampilan awal program
+  ![Tampilan awal program](ss1.PNG)
+- ### menjalankan menginputkan harga dll, melakukan proses hitung dan menampilkan outputnya
+  ![Tampilan awal program](ss2.PNG)
 
 Antarmuka aplikasi terdiri dari:
 - `JTextField` untuk memasukkan harga asli dan kode kupon diskon.
